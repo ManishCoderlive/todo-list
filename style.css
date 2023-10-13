@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.background {
+    background: url('https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.app-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 400px; /* Adjust the width as desired */
+    margin: 20px auto;
+    margin-top: 20px; /* Add margin from the top to align it at the top of the page */
+}
+
+h1 {
+    color: #007BFF;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+li {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i {
+    color: red;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+/* Your existing CSS */
+
+i.delete-icon {
+    color: red;
+    cursor: pointer;
+    margin-left: 5px;
+
+    /* Add background and border styles here */
+    background-color: #fff; /* Background color for the delete icon */
+    border: 1px solid red; /* Border styles for the delete icon */
+    border-radius: 50%; /* Round the corners to make it a circle */
+
+    /* You can also adjust padding or size as needed */
+    padding: 8px;
+}
+
+/* Your existing CSS */
